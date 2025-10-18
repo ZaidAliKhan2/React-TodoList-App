@@ -1,16 +1,12 @@
 import React from "react";
+import tasklyIcon from "../assets/tasklyIcon.png";
 
 function Navbar() {
   return (
     <div>
       <nav className="navCont flex justify-around items-center bg-green-100 shadow-sm mb-2">
         <div className="logoCont flex justify-start items-center">
-          <img
-            src="./src/assets/tasklyIcon.png"
-            alt="icon"
-            width={50}
-            height={50}
-          />
+          <img src={tasklyIcon} alt="icon" width={50} height={50} />
           <h1 className="text-green-700 text-2xl font-bold">Taskly</h1>
         </div>
         <div>
